@@ -1,0 +1,25 @@
+{
+  "name": "necesitomichela",
+  "version": "1.0.0",
+  "description": "backend-necesitomichela",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.11",
+    "pg": "^8.3.0",
+    "save": "^2.4.0",
+    "validatorjs": "^3.18.1"
+  }
+}
